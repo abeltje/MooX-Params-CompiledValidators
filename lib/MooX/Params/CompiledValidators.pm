@@ -165,7 +165,7 @@ Returns a (locked) hashref with validated parameters or C<die()>s trying...
     );
     # we can now use $args->{customer_id}
 
-B<NOTE>: C<validate_positional_parameters()> supports the C<store> attribute for
+B<NOTE>: C<validate_parameters()> supports the C<store> attribute for
 te validation template.
 
 =head3 Parameters
@@ -400,6 +400,8 @@ variable to store the value in:
 =item B<Success>
 
 A list of C<$parameter_name> and C<$validation_template>.
+
+    (this_parm => { optional => 0, store => \my $this_param })
 
 =back
 
