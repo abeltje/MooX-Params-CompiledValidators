@@ -1,0 +1,25 @@
+Changes on 2021-03-19 for repository at:
+  Fetch URL: ssh://git@source.test-smoke.org:9999/~/MooX-Params-CompiledValidators
+  Push  URL: ssh://git@source.test-smoke.org:9999/~/MooX-Params-CompiledValidators
+
+Enjoy!
+
+0.01 2021-03-19T04:43:32+01:00 (9ddfcfd => Abe Timmerman)
+ - (Abe Timmerman, 2 seconds ago) Autocommit for distribution
+   MooX::Params::CompiledValidators 0.01 (same)
+
+0.00_00 2021-02-19T01:11:57+01:00 (58b6456 => Abe Timmerman)
+ - (Abe Timmerman, 4 weeks ago) New repository
+   MooX::Params::CompiledValidations
+
+ - (Abe Timmerman, 7 days ago) Setup the new repository
+ -     Basic perl-distribution files
+ -     t::Test::abeltje (update_abeltje_testing)
+ -     The actual code
+ -     basic tests
+
+ - (Abe Timmerman, 7 days ago) VERSION doesn't work with whitespace in it
+
+ - (Abe Timmerman, 3 hours ago) Small POD changes
+
+ - (Abe Timmerman, 9 minutes ago) Add a README.md
