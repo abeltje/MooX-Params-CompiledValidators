@@ -1,3 +1,4 @@
+Changes
 lib/MooX/Params/CompiledValidators.pm
 Makefile.PL
 MANIFEST			This list of files
@@ -5,8 +6,8 @@ MANIFEST.SKIP
 README.md
 t/010-basic.t
 t/020-moose.t
-t/lib/MooseTestBasicValidations.pm
 t/lib/BasicValidationTemplates.pm
+t/lib/MooseTestBasicValidations.pm
 t/lib/TestBasicValidations.pm
 t/Test/abeltje.pm
 xt/00-manifest.t

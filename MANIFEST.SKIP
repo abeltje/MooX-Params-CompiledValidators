@@ -1,6 +1,6 @@
 \.git(ignore|attributes)?
 Makefile$
-Makefile(\.old)?
+Makefile(\.old)?$
 MANIFEST\.bak
 pm_to_blib
 blib/
