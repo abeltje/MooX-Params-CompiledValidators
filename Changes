@@ -4,17 +4,20 @@ Changes on 2021-03-25 for repository at:
 
 Enjoy!
 
-0.03 2021-03-25T20:57:06+01:00 (564efa9 => Abe Timmerman)
+0.04 2021-03-25T20:59:17+01:00 (1c0638e => Abe Timmerman)
  - (Abe Timmerman, 2 seconds ago) Autocommit for distribution
-   MooX::Params::CompiledValidators 0.03 (same)
+   MooX::Params::CompiledValidators 0.04 (same)
 
 0.02 2021-03-19T05:08:02+01:00 (20fff4a => Abe Timmerman)
  - (Abe Timmerman, 7 days ago) Autocommit for distribution
    MooX::Params::CompiledValidators 0.02 (same)
 
- - (Abe Timmerman, 4 minutes ago) FIX: Makefile.PL
+ - (Abe Timmerman, 6 minutes ago) FIX: Makefile.PL
  -     Add dependency on 'namespace::autoclean'
  -     Fix some of the META_ADD information
+
+ - (Abe Timmerman, 2 minutes ago) Autocommit for distribution
+   MooX::Params::CompiledValidators 0.03 (same)
 
 0.01 2021-03-19T04:43:32+01:00 (2b8c415 => Abe Timmerman)
  - (Abe Timmerman, 7 days ago) Autocommit for distribution
