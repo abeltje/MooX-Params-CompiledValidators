@@ -36,13 +36,13 @@ WriteMakefile(
             version    => 2,
         },
         'resources' => {
-            homepage  => "https://github.com/abeltje/MooX-Params-CompiledValidators",
+            homepage  => 'https://github.com/abeltje/MooX-Params-CompiledValidators',
             repository => {
-                type   => "git",
-                url    => "git@github.com:abeltje/MooX-Params-CompiledValidators.git",
-                web    => "https://github.com/abeltje/MooX-Params-CompiledValidators.git",
+                type   => 'git',
+                url    => 'git@github.com:abeltje/MooX-Params-CompiledValidators.git',
+                web    => 'https://github.com/abeltje/MooX-Params-CompiledValidators.git',
             },
-#            x_IRC      => "irc://irc.perl.org/#amsterdam.pm",
+#            x_IRC      => 'irc://irc.perl.org/#amsterdam.pm',
         },
     },
 );
