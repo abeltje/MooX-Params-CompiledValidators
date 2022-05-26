@@ -1,7 +1,7 @@
 package MooX::Params::CompiledValidators;
 use Moo::Role;
 
-our $VERSION = '0.04';
+our $VERSION = '0.04_01';
 
 use Hash::Util 'lock_hash';
 use Params::ValidationCompiler 'validation_for';
