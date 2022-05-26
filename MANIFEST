@@ -8,6 +8,7 @@ META.yml
 README.md
 t/010-basic.t
 t/020-moose.t
+t/030-validation.t
 t/lib/BasicValidationTemplates.pm
 t/lib/MooseTestBasicValidations.pm
 t/lib/TestBasicValidations.pm

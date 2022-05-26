@@ -239,7 +239,7 @@ sub validate_parameters {
 
     my %validated = eval { $validator->(%$values) };
     if (my $error = $@) {
-        die "Parameter validation error: $error";
+        _sniff_it($error);
     }
 
     # store values in the their (scoped) variables
@@ -361,7 +361,7 @@ sub validate_positional_parameters {
 
     my @validated_values = eval { $validator->(@$data) };
     if (my $error = $@) {
-        die "Parameter validation error: $error";
+        _sniff_it($error);
     }
 
     my %validated;
@@ -471,6 +471,24 @@ sub parameter {
         optional => $optional,
     };
     return ($name => $final_template);
+}
+
+=begin private
+
+=head2 _sniff_it($message)
+
+Tailor made exception handler.
+
+=end private
+
+=cut
+
+sub _sniff_it {
+    my ($message) = @_;
+    my ($filename, $line) = (caller(1))[1, 2];
+    my $subroutine = (caller(2))[3];
+
+    die sprintf('Error in %s (%s:%u): %s', $subroutine, $filename, $line, $message);
 }
 
 use namespace::autoclean;
