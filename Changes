@@ -1,10 +1,22 @@
-Changes on 2022-05-31 for repository at:
+Changes on 2022-06-02 for repository at:
+  Fetch URL: ssh://git@source.test-smoke.org:9999/~/MooX-Params-CompiledValidators
+  Push  URL: ssh://git@source.test-smoke.org:9999/~/MooX-Params-CompiledValidators
 
 Enjoy!
 
-0.04_03 2022-05-31T13:13:34+02:00 (f53b6a9 => Abe Timmerman)
+0.04_04 2022-06-02T15:35:15+02:00 (7765905 => Abe Timmerman)
+ - (Abe Timmerman, Thu, 2 Jun 2022 15:35:15 +0200) Autocommit for
+   distribution MooX::Params::CompiledValidators 0.04_04 (test)
+
+0.04_03 2022-05-31T13:13:34+02:00 (9fa4454 => Abe Timmerman)
  - (Abe Timmerman, Tue, 31 May 2022 13:13:34 +0200) Autocommit for
    distribution MooX::Params::CompiledValidators 0.04_03 (test)
+
+ - (Abe Timmerman, Thu, 2 Jun 2022 15:32:37 +0200) Try to avoid warnings
+   from Types::Standard::StrMatch
+ -     It seems to help if you have Regexp::Util installed, so add it to
+   the
+ -     depencies.
 
 0.04_02 2022-05-31T12:32:25+02:00 (1345547 => Abe Timmerman)
  - (Abe Timmerman, Tue, 31 May 2022 12:32:25 +0200) Autocommit for
