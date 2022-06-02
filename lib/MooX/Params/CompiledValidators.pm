@@ -230,7 +230,6 @@ sub validate_parameters {
     my $this_validator = "validation_for>$called_from";
 
     if (not exists($_validators->{ $this_validator })) {
-        local $Type::Tiny::AvoidCallbacks;
         $_validators->{$this_validator} = validation_for(
             params => $templates,
             name   => $this_validator,
@@ -353,7 +352,6 @@ sub validate_positional_parameters {
     my $this_validator = "validation_for>$called_from";
 
     if (not exists($_validators->{ $this_validator })) {
-        local $Type::Tiny::AvoidCallbacks;
         $_validators->{$this_validator} = validation_for(
             params => $positional_templates,
             name   => $this_validator,
