@@ -1,10 +1,14 @@
-Changes on 2022-06-02 for repository at:
-  Fetch URL: ssh://git@source.test-smoke.org:9999/~/MooX-Params-CompiledValidators
-  Push  URL: ssh://git@source.test-smoke.org:9999/~/MooX-Params-CompiledValidators
+Changes on 2022-06-06 for repository at:
+  Fetch URL: git@github.com:abeltje/MooX-Params-CompiledValidators.git
+  Push  URL: git@github.com:abeltje/MooX-Params-CompiledValidators.git
 
 Enjoy!
 
-0.04_04 2022-06-02T15:35:15+02:00 (7765905 => Abe Timmerman)
+0.05 2022-06-06T13:20:53+02:00 (dad9d00 => Abe Timmerman)
+ - (Abe Timmerman, Mon, 6 Jun 2022 13:20:53 +0200) Autocommit for
+   distribution MooX::Params::CompiledValidators 0.05 (minor)
+
+0.04_04 2022-06-02T15:35:15+02:00 (55967ae => Abe Timmerman)
  - (Abe Timmerman, Thu, 2 Jun 2022 15:35:15 +0200) Autocommit for
    distribution MooX::Params::CompiledValidators 0.04_04 (test)
 
