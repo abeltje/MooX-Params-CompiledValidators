@@ -1,0 +1,34 @@
+Source: libmoox-params-compiledvalidators-perl
+Maintainer: Abe Timmerman <abeltje@>
+Section: perl
+Priority: optional
+Build-Depends: debhelper-compat (= 12)
+Build-Depends-Indep: libmoo-perl (>= 2.003),
+                     libnamespace-autoclean-perl (>= 0.28),
+                     libparams-validationcompiler-perl (>= 0.27),
+                     libscalar-list-utils-perl,
+                     libtest-fatal-perl,
+                     libtest-simple-perl,
+                     libtest-warnings-perl (>= 0.028),
+                     libtype-tiny-perl (>= 1.008),
+                     perl
+Standards-Version: 4.5.0
+Homepage: https://metacpan.org/release/MooX-Params-CompiledValidators
+
+Package: libmoox-params-compiledvalidators-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libmoo-perl (>= 2.003),
+         libnamespace-autoclean-perl (>= 0.28),
+         libparams-validationcompiler-perl (>= 0.27),
+         libscalar-list-utils-perl,
+         libtype-tiny-perl (>= 1.008)
+Description: L<Moo::Role> for using L<Params::ValidationCompiler>.
+ Mostly nicked from other modules (like Modern::Perl)...
+ .
+ This gives you Test::More, Test::Fatal, Test::Warnings and also imports for
+ you: strict, warnings, the feature with the :5.10 tag and lib with the t/lib
+ path.
+ .
+ This description was automagically extracted from the module by dh-make-perl.

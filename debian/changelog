@@ -1,0 +1,11 @@
+libmoox-params-compiledvalidators-perl (0.05-1) unstable; urgency=medium
+
+  * Synchronise with the CPAN release.
+
+ -- Abe Timmerman <abeltje@cpan.org>  Thu, 16 Feb 2023 11:56:13 +0100
+
+libmoox-params-compiledvalidators-perl (0.04-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Abe Timmerman <abeltje@cpan.org>  Thu, 16 Dec 2021 20:17:57 +0000

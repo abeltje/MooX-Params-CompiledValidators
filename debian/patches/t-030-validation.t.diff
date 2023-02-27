@@ -1,0 +1,14 @@
+diff --git a/t/030-validation.t b/t/030-validation.t
+index 36df229..3558f82 100644
+--- a/t/030-validation.t
++++ b/t/030-validation.t
+@@ -1,6 +1,9 @@
+ #! perl -I.
+ use t::Test::abeltje;
+ 
++eval "require Regexp::Util";
++plan(skip_all => "Cannot find Regexp::Util...") if $@;
++
+ use TestBasicValidations;
+ 
+ my $file = $INC{"TestBasicValidations.pm"};
